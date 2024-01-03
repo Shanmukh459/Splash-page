@@ -15,11 +15,11 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 400;
-    text-shadow: 0 2px #816fca;
+    text-shadow: 0 2px orange;
 }
 
 h2 {
-    font-size: 2.25rem;
+    font-size: 2rem;
     margin: 0.167em 0;
 }
 
@@ -30,6 +30,7 @@ p {
 
 .beta-text { 
     font-weight: 900;
+    text-shadow: 1px 1px 10px black;
 }
 
 .subheading {
@@ -42,6 +43,7 @@ p {
 .top-text,
 .subheading {
     text-transform: uppercase;
+    color: orange;
 }
 
 .top-text {
@@ -49,6 +51,7 @@ p {
     font-weight: 900;
     padding-top: 0.25em;
     border-top: 5px solid;
+    border-image: linear-gradient(to right, #ffcc00, #ff6600) 1 0 0 0;
     order: -1;
     margin: 0 auto;
 }
@@ -80,10 +83,11 @@ p {
     min-height: 250px;
     text-align: center;
     color: #fff;
-    background: #9480e4 url("images/intro-bg.png");
+    background: orange url("images/bbq.jpg");
     background-size: cover;
     padding-bottom: 1.5em;
 }
+
 
 /* ====================
     Main content
@@ -138,7 +142,7 @@ input:focus {
 
 .btn-primary {
     color: white;
-    background-color: #8a71ec;
+    background: linear-gradient(to right, #ffcc00, #ff6600);
     margin-top: 1em;    
 }
 
@@ -161,7 +165,7 @@ input:focus {
     }
     
     h2 {
-        font-size: 2.625rem;
+        font-size: 2.5rem;
     }
     
     .beta-text {
